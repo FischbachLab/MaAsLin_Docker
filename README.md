@@ -4,7 +4,7 @@ A MaAsLin docker container with Bioconductor and RStudio based on [bioconductor_
 
 
 
-## Run a MaAsLin demo dataset within a docker image
+## Run a MaAsLin demo dataset within a docker container
 ```bash
 /work/Maaslin2-1.7.3/R/Maaslin2.R \
     --transform=AST \
