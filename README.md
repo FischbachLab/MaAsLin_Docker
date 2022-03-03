@@ -1,5 +1,8 @@
 # MaAsLin_Docker
-A MaAsLin docker container with Bioconductor and RStudio
+A MaAsLin docker container with Bioconductor and RStudio based on [bioconductor_docker] (https://github.com/Bioconductor/bioconductor_docker) 
+
+
+
 
 ## Run a MaAsLin demo dataset within a docker image
 ```bash
