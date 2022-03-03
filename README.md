@@ -1,7 +1,8 @@
 # MaAsLin_Docker
-A MaAsLin docker container with Bioconductor and RStudio based on [bioconductor_docker] (https://github.com/Bioconductor/bioconductor_docker) 
 
+This is a MaAsLin2 docker image with Bioconductor and RStudio based on [bioconductor_docker] (https://github.com/Bioconductor/bioconductor_docker) 
 
+MaAsLin2 (https://github.com/biobakery/Maaslin2) is comprehensive R package for efficiently determining multivariable association with Linear Models.
 
 
 ## Run a MaAsLin demo dataset within a docker container
