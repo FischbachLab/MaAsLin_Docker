@@ -47,7 +47,7 @@ RUN mkdir -p /work
 WORKDIR /work
 RUN wget https://github.com/biobakery/Maaslin2/archive/refs/tags/1.7.3.tar.gz \
     && tar xzvf 1.7.3.tar.gz \
-    && R -q -e "install.packages(c('edgeR', 'metagenomeSeq', 'optparse', 'lmerTest','pbapply','car','dplyr','vegan','chemometrics','ggplot2','pheatmap','hash','logging','data.table','MuMIn','glmmTMB','MASS','cplm','pscl'), repos='http://cran.r-project.org')"
+    && R -q -e "install.packages(c('optparse', 'lmerTest','pbapply','car','dplyr','vegan','chemometrics','ggplot2','pheatmap','hash','logging','data.table','MuMIn','glmmTMB','MASS','cplm','pscl'), repos='http://cran.r-project.org')"
 
 ENV LIBSBML_CFLAGS="-I/usr/include"
 ENV LIBSBML_LIBS="-lsbml"
